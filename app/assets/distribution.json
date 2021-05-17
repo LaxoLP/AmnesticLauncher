@@ -236,11 +236,11 @@
       },
       {
         "id": "deci",
-        "name": "Decimation",
-        "description": "Official Decimation Modpack",
+        "name": "Test",
+        "description": "Official Test Modpack",
         "icon": "https://i.imgur.com/GrSF9T9.jpg",
         "version": "1.20.6f",
-        "address": "www.mcdecimation.net",
+        "address": "www.mcTest.net",
         "minecraftVersion": "1.7.10",
         "mainServer": true,
         "autoconnect": false,
@@ -428,8 +428,8 @@
             ]
           },
           {
-            "id": "net.mcdecimation:Decimation:1.20.6f",
-            "name": "Decimation Mod Jar",
+            "id": "net.mcTest:Test:1.20.6f",
+            "name": "Test Mod Jar",
             "type": "File",
             "required": {
               "value": true
@@ -437,8 +437,8 @@
             "artifact": {
               "size": 149477730,
               "MD5": "6EABFA9A7F62A3B8D79BA8154B519243",
-              "path": "mods/Decimation.jar",
-              "url": "https://github.com/ScottehBoeh/DecimationRelease/releases/download/1.20.6/Decimation.jar"
+              "path": "mods/Test.jar",
+              "url": "https://github.com/ScottehBoeh/TestRelease/releases/download/1.20.6/Test.jar"
             }
           }
         ]
