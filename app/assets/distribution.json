@@ -7,17 +7,17 @@
     "servers": [
       {
         "id": "cc",
-        "name": "CounterCraft",
-        "description": "Official CounterCraft Matchmaking & Cloud",
+        "name": "Amnestic Roleplay",
+        "description": "Biggest Roleplay Server",
         "icon": "https://www.mccountercraft.net/img/cclogosquare.png",
-        "version": "1.6.4a",
-        "address": "www.mccountercraft.net",
-        "minecraftVersion": "1.6.4",
-        "mainServer": false,
-        "autoconnect": false,
+        "version": "1.0",
+        "address": "www.amnestic.net",
+        "minecraftVersion": "1.16.5",
+        "mainServer": true,
+        "autoconnect": true,
         "modules": [
           {
-            "id": "net.minecraftforge:forge:1.6.4-9.11.1.1345",
+            "id": "net.minecraftforge:forge:1.16.5-36.1.23",
             "name": "Minecraft Forge",
             "type": "ForgeHosted",
             "artifact": {
