@@ -8,7 +8,7 @@
  ******************************************************************************/
 
 @font-face {
-    font-family: 'Avenir Book';
+    font-family: 'Arial';
     src: url('../fonts/Avenir-Book.ttf');
 }
 
@@ -42,7 +42,7 @@ p {
 
 /* Set default font and color. */
 body, button {
-    font-family: 'Avenir Book';
+    font-family: 'Arial';
     color: white;
 }
 
@@ -2870,16 +2870,16 @@ input:checked + .toggleSwitchSlider:before {
 /* Social media icon shared styles. */
 .mediaSVG {
     fill: #ffffff;
-    height: 12px;
+    height: 24px;
     transition: 0.25s ease;
     cursor: pointer;
-    height: 12px;
-    width: 25px;
+    height: 24px;
+    width: 50px;
 }
 .mediaSVG:hover,
 .mediaURL:focus .mediaSVG,
 .mediaSVG:active {
-    height: 20px;
+    height: 30px;
 }
 
 /* Social media URL shared styles. */
@@ -2904,7 +2904,8 @@ input:checked + .toggleSwitchSlider:before {
 /* Settings icon colors. */
 #settingsSVG {
     stroke: #ffffff;
-    height: 15px;
+    height: 24px;
+    width: 50px;
 }
 .mediaButton:hover #settingsSVG,
 .mediaButton:focus #settingsSVG,
@@ -3210,8 +3211,8 @@ input:checked + .toggleSwitchSlider:before {
     cursor: pointer;
     font-weight: 900;
     letter-spacing: 2px;
-    text-shadow: 0px 0px 0px #bebcbb;
-    font-size: 20px;
+    text-shadow: 1px 1px 1px #bebcbb;
+    font-size: 50px;
     padding: 0px;
     transition: 0.25s ease;
     outline: none;

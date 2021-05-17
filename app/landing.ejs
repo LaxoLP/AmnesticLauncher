@@ -2,7 +2,6 @@
     <div id="upper">
         <div id="left">
             <div id="image_seal_container">
-                <img id="image_seal" src="assets/images/SealCircle.png"/>
                 <div id="updateAvailableTooltip">Update Available</div>
             </div>
         </div>
@@ -96,12 +95,12 @@
             <div class="bot_wrapper">
                 <div id="content">
                     <div id="server_status_wrapper">
-                        <span class="bot_label" id="landingPlayerLabel">SERVER</span>
+                        <span class="bot_label" id="landingPlayerLabel">SERVER PLAYERS</span>
                         <span id="player_count">OFFLINE</span>
                     </div>
                     <div class="bot_divider"></div>
                     <div id="mojangStatusWrapper">
-                        <span class="bot_label">MOJANG STATUS</span>
+                        <span class="bot_label">AMNESTIC SERVER STATUS</span>
                         <span id="mojang_status_icon">&#8226;</span>
                         <div id="mojangStatusTooltip">
                             <div id="mojangStatusTooltipTitle">Services</div>
@@ -126,14 +125,7 @@
                 <div id="content">
                     <button id="newsButton">
                         <!--<img src="assets/images/icons/arrow.svg" id="newsButtonSVG"/>-->
-                        <div id="newsButtonAlert" style="display: none;"></div>
-                        <svg id="newsButtonSVG" viewBox="0 0 24.87 13.97">
-                            <defs>
-                                <style>.arrowLine{fill:none;stroke:#FFF;stroke-width:2px;}</style>
-                            </defs>
-                            <polyline class="arrowLine" points="0.71 13.26 12.56 1.41 24.16 13.02"/>
-                        </svg>
-                        &#10;<span id="newsButtonText">NEWS</span>
+                        <button id="launch_button">PLAY</button>
                     </button>
                 </div>
             </div>
@@ -141,7 +133,7 @@
         <div id="right">
             <div class="bot_wrapper">
                 <div id="launch_content">
-                    <button id="launch_button">PLAY</button>
+                    <span id="newsButtonText">NEWS</span>
                     <div class="bot_divider"></div>
                     <button id="server_selection_button" class="bot_label">&#8226; No Server Selected</button>
                 </div>
