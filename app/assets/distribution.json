@@ -30,7 +30,7 @@
           "artifact": {
             "size": 210522,
             "MD5": "e7f76276301f0113c3e4aeb7e8b462f9",
-            "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23.jar"
+            "url": "https://amnestic.net/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23.jar"
           },
           "subModules": [
             {
@@ -40,7 +40,7 @@
               "artifact": {
                 "size": 12754,
                 "MD5": "cb7496fb963589a5280429b2eddf3cf9",
-                "url": "http://localhost:8080/repo/versions/1.16.5-forge-36.1.23/1.16.5-forge-36.1.23.json"
+                "url": "https://amnestic.net/repo/versions/1.16.5-forge-36.1.23/1.16.5-forge-36.1.23.json"
               }
             },
             {
@@ -50,7 +50,7 @@
               "artifact": {
                 "size": 2424531,
                 "MD5": "7c4ca438752ab0dba3e98cd665854106",
-                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23-universal.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23-universal.jar"
               },
               "subModules": []
             },
@@ -61,7 +61,7 @@
               "artifact": {
                 "size": 4151961,
                 "MD5": "c428e861f207c4dd0fc29a5175ca0ef6",
-                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23-client.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23-client.jar"
               },
               "subModules": []
             },
@@ -72,7 +72,7 @@
               "artifact": {
                 "size": 11352644,
                 "MD5": "21b2881695f41f04bb05c6283557d487",
-                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
               },
               "subModules": []
             },
@@ -83,7 +83,7 @@
               "artifact": {
                 "size": 9118806,
                 "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
-                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
               },
               "subModules": []
             },
@@ -94,7 +94,7 @@
               "artifact": {
                 "size": 8428369,
                 "MD5": "dbed747390f81e10cee40500b726431a",
-                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
               },
               "subModules": []
             },
@@ -105,7 +105,7 @@
               "artifact": {
                 "size": 121783,
                 "MD5": "e87284e4421437854ba938179cf803e7",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.0/asm-9.0.jar"
+                "url": "https://amnestic.net/repo/lib/org/ow2/asm/asm/9.0/asm-9.0.jar"
               }
             },
             {
@@ -115,7 +115,7 @@
               "artifact": {
                 "size": 71646,
                 "MD5": "e84f4f465fe607932af0d9ca4b31bce5",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar"
+                "url": "https://amnestic.net/repo/lib/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar"
               }
             },
             {
@@ -125,7 +125,7 @@
               "artifact": {
                 "size": 52673,
                 "MD5": "3798070ed795cf4aa7efd7f63feec2a2",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar"
+                "url": "https://amnestic.net/repo/lib/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar"
               }
             },
             {
@@ -135,7 +135,7 @@
               "artifact": {
                 "size": 84857,
                 "MD5": "ddbcaa2262311e04a6b0560787b47da4",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar"
+                "url": "https://amnestic.net/repo/lib/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar"
               }
             },
             {
@@ -145,7 +145,7 @@
               "artifact": {
                 "size": 33439,
                 "MD5": "daed5f6bc67ac8f01bebeca0bb72a369",
-                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar"
+                "url": "https://amnestic.net/repo/lib/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar"
               }
             },
             {
@@ -155,7 +155,7 @@
               "artifact": {
                 "size": 126196,
                 "MD5": "dae78c82a7ca7599ae6a10938cd22d58",
-                "url": "http://localhost:8080/repo/lib/cpw/mods/modlauncher/8.0.9/modlauncher-8.0.9.jar"
+                "url": "https://amnestic.net/repo/lib/cpw/mods/modlauncher/8.0.9/modlauncher-8.0.9.jar"
               }
             },
             {
@@ -165,7 +165,7 @@
               "artifact": {
                 "size": 2113,
                 "MD5": "d19b487241008d8e6111137a289ea1d7",
-                "url": "http://localhost:8080/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+                "url": "https://amnestic.net/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
               }
             },
             {
@@ -175,7 +175,7 @@
               "artifact": {
                 "size": 76586,
                 "MD5": "ada4c365c3d0de73c05a94010432b547",
-                "url": "http://localhost:8080/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
               }
             },
             {
@@ -185,7 +185,7 @@
               "artifact": {
                 "size": 337868,
                 "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
-                "url": "http://localhost:8080/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+                "url": "https://amnestic.net/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
               }
             },
             {
@@ -195,7 +195,7 @@
               "artifact": {
                 "size": 42873,
                 "MD5": "84c4758e6139b70146104be5bb1300b5",
-                "url": "http://localhost:8080/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
               }
             },
             {
@@ -205,7 +205,7 @@
               "artifact": {
                 "size": 20172,
                 "MD5": "8f1f6942d17d88d704324e8000666a1a",
-                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
               }
             },
             {
@@ -215,7 +215,7 @@
               "artifact": {
                 "size": 25453,
                 "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
-                "url": "http://localhost:8080/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
               }
             },
             {
@@ -225,7 +225,7 @@
               "artifact": {
                 "size": 2834,
                 "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
-                "url": "http://localhost:8080/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
               }
             },
             {
@@ -235,7 +235,7 @@
               "artifact": {
                 "size": 199091,
                 "MD5": "093b0ca357d3f8b922170b8d7f43948c",
-                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+                "url": "https://amnestic.net/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
               }
             },
             {
@@ -245,7 +245,7 @@
               "artifact": {
                 "size": 31288,
                 "MD5": "615b8e62371c536f876764591990118d",
-                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+                "url": "https://amnestic.net/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
               }
             },
             {
@@ -255,7 +255,7 @@
               "artifact": {
                 "size": 732926,
                 "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
-                "url": "http://localhost:8080/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+                "url": "https://amnestic.net/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
               }
             },
             {
@@ -265,7 +265,7 @@
               "artifact": {
                 "size": 57824,
                 "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
-                "url": "http://localhost:8080/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+                "url": "https://amnestic.net/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
               }
             },
             {
@@ -275,7 +275,7 @@
               "artifact": {
                 "size": 15425,
                 "MD5": "ee4596e1413cc1a5e080c971d6064753",
-                "url": "http://localhost:8080/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+                "url": "https://amnestic.net/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
               }
             },
             {
@@ -285,7 +285,7 @@
               "artifact": {
                 "size": 266283,
                 "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
-                "url": "http://localhost:8080/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
+                "url": "https://amnestic.net/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
               }
             },
             {
@@ -295,7 +295,7 @@
               "artifact": {
                 "size": 1629585,
                 "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
-                "url": "http://localhost:8080/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
+                "url": "https://amnestic.net/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
               }
             },
             {
@@ -305,7 +305,7 @@
               "artifact": {
                 "size": 15977,
                 "MD5": "679363fa893293791e55a21f81342f87",
-                "url": "http://localhost:8080/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
               }
             },
             {
@@ -315,7 +315,7 @@
               "artifact": {
                 "size": 78146,
                 "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
-                "url": "http://localhost:8080/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+                "url": "https://amnestic.net/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
               }
             },
             {
@@ -325,7 +325,7 @@
               "artifact": {
                 "size": 935252,
                 "MD5": "1f0c4faa50360623e49b9c2522edc602",
-                "url": "http://localhost:8080/repo/lib/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar"
+                "url": "https://amnestic.net/repo/lib/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar"
               }
             },
             {
@@ -335,7 +335,7 @@
               "artifact": {
                 "size": 2194057,
                 "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
-                "url": "http://localhost:8080/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+                "url": "https://amnestic.net/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
               }
             }
           ]
@@ -346,7 +346,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2386707,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/[1.16.5]+SecurityCraft+v1.8.21.1.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/[1.16.5]+SecurityCraft+v1.8.21.1.jar",
             "MD5": "bf446d6520d8bb62f3a23c4381b98fa9"
           }
         },
@@ -356,7 +356,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 8356809,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/betteranimalsplus-1.16.5-10.2.0.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/betteranimalsplus-1.16.5-10.2.0.jar",
             "MD5": "76be6215fd3ddd3fca3316718afa8962"
           }
         },
@@ -366,7 +366,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1741346,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/cfm-7.0.0-pre19-mc1.16.3.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/cfm-7.0.0-pre19-mc1.16.3.jar",
             "MD5": "d5d24b9624fdbee21aa799c3007fe6cd"
           }
         },
@@ -376,7 +376,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 1206293,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/cgm-1.0.1-mc1.16.3.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/cgm-1.0.1-mc1.16.3.jar",
             "MD5": "9f9826cf21828ffdff968478c1ef3c92"
           }
         },
@@ -386,7 +386,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 682094,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/CookingForBlockheads_1.16.5-9.3.1.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/CookingForBlockheads_1.16.5-9.3.1.jar",
             "MD5": "acd88bcf95e8d8f68618e8c5cae07d69"
           }
         },
@@ -396,7 +396,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 14853313,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/DynamicSurroundings-1.16.4-4.0.4.2.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/DynamicSurroundings-1.16.4-4.0.4.2.jar",
             "MD5": "94f6cd1063b181219d62e535cb4a6e43"
           }
         },
@@ -406,7 +406,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 432801,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/First-Aid-Mod-1.16.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/First-Aid-Mod-1.16.5.jar",
             "MD5": "24a8e5a469f4663cf9fbf39e3441348e"
           }
         },
@@ -416,7 +416,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 150920,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/GoProne-Mod-1.16.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/GoProne-Mod-1.16.5.jar",
             "MD5": "32cc029ab33a1c18927d19a7c58ea931"
           }
         },
@@ -426,7 +426,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 733320,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/Macaws-Doors-Mod-1.16.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/Macaws-Doors-Mod-1.16.5.jar",
             "MD5": "e4edfada2ba8ce0e309577c74edd4df2"
           }
         },
@@ -436,7 +436,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 623920,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/mcw-windows-1.0.3-mc1.16.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/mcw-windows-1.0.3-mc1.16.5.jar",
             "MD5": "0edd1262eab6a4bdf357ff31cc237d1f"
           }
         },
@@ -446,7 +446,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 231501,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/movingelevators-1.2.34-mc1.16.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/movingelevators-1.2.34-mc1.16.5.jar",
             "MD5": "3d49a5bfff6de8af21e162ebffca2cda"
           }
         },
@@ -456,7 +456,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 144213,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/obfuscate-0.6.0-mc1.16.4.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/obfuscate-0.6.0-mc1.16.4.jar",
             "MD5": "a8a57b55b1d6dd7e69a6f552f9b99e7d"
           }
         },
@@ -466,7 +466,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6046996,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/optionalon/OptiFine_1.16.5_HD_U_G8.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/optionalon/OptiFine_1.16.5_HD_U_G8.jar",
             "MD5": "e0717ba6d1674af83036ebc479fc77b4"
           },
           "required": {
@@ -479,7 +479,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 31255,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/Pitch-Perfect-Mod-1.16.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/Pitch-Perfect-Mod-1.16.5.jar",
             "MD5": "3acb0b85ccf5dc033cacc663b6bb5b77"
           }
         },
@@ -489,7 +489,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 91703,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/Satako-4.2.4-1.16.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/Satako-4.2.4-1.16.5.jar",
             "MD5": "eb783b1f4c84cec6d42e41f369bfbd39"
           }
         },
@@ -499,7 +499,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 18864524,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/SCPOvertime-1.16.5-1.1.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/SCPOvertime-1.16.5-1.1.jar",
             "MD5": "b52a1e43447405434a85ccca3529f8ce"
           }
         },
@@ -509,7 +509,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 6273306,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/Space-Bosstools-Mod-1.16.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/Space-Bosstools-Mod-1.16.5.jar",
             "MD5": "174aba2801a4910deab094017afb03d4"
           }
         },
@@ -519,7 +519,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 3392743,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/vehicle-0.45.1-mc1.16.3.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/vehicle-0.45.1-mc1.16.3.jar",
             "MD5": "046ca32dbd0ff99dda93250b31700eee"
           }
         },
@@ -529,7 +529,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 2583494,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/voicechat-1.16.5-1.3.5.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/voicechat-1.16.5-1.3.5.jar",
             "MD5": "7eabddade75c65ea76d9356319312792"
           }
         },
@@ -539,7 +539,7 @@
           "type": "ForgeMod",
           "artifact": {
             "size": 5312767,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/worldedit-mod-7.2.5-dist.jar",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/forgemods/required/worldedit-mod-7.2.5-dist.jar",
             "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
           }
         },
@@ -549,7 +549,7 @@
           "type": "File",
           "artifact": {
             "size": 375,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/betteranimalsplus-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/betteranimalsplus-client.toml",
             "MD5": "18440a653b5cfdbf6929786dd88b49d9",
             "path": "config/betteranimalsplus-client.toml"
           }
@@ -560,7 +560,7 @@
           "type": "File",
           "artifact": {
             "size": 190,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cfm-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/cfm-client.toml",
             "MD5": "7fa57b2ec3af27c80b00b56b1fac740b",
             "path": "config/cfm-client.toml"
           }
@@ -571,7 +571,7 @@
           "type": "File",
           "artifact": {
             "size": 259,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cfm-common.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/cfm-common.toml",
             "MD5": "0d385a1ecf645dda802350ffe3cb4bc4",
             "path": "config/cfm-common.toml"
           }
@@ -582,7 +582,7 @@
           "type": "File",
           "artifact": {
             "size": 1775,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cgm-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/cgm-client.toml",
             "MD5": "2372c9f205b07cf85e2137a3ece367a5",
             "path": "config/cgm-client.toml"
           }
@@ -593,7 +593,7 @@
           "type": "File",
           "artifact": {
             "size": 6278,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cgm-common.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/cgm-common.toml",
             "MD5": "df99347401677e7d2603a6d982c300f6",
             "path": "config/cgm-common.toml"
           }
@@ -604,7 +604,7 @@
           "type": "File",
           "artifact": {
             "size": 127,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cookingforblockheads-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/cookingforblockheads-client.toml",
             "MD5": "e1e3ffb231cc0402291d124a823ff237",
             "path": "config/cookingforblockheads-client.toml"
           }
@@ -615,7 +615,7 @@
           "type": "File",
           "artifact": {
             "size": 1261,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cookingforblockheads-common.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/cookingforblockheads-common.toml",
             "MD5": "ab32639ee511feb9720ef09cf13c7efd",
             "path": "config/cookingforblockheads-common.toml"
           }
@@ -626,7 +626,7 @@
           "type": "File",
           "artifact": {
             "size": 863,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/dsurround-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/dsurround/dsurround-client.toml",
             "MD5": "44d46075f0e00cc5a8f312d371325dcd",
             "path": "config/dsurround/dsurround-client.toml"
           }
@@ -637,7 +637,7 @@
           "type": "File",
           "artifact": {
             "size": 2351,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/environs-client-1.toml.bak",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/dsurround/environs-client-1.toml.bak",
             "MD5": "2be49e9742e83c2ff69d23f703350457",
             "path": "config/dsurround/environs-client-1.toml.bak"
           }
@@ -648,7 +648,7 @@
           "type": "File",
           "artifact": {
             "size": 2351,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/environs-client-2.toml.bak",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/dsurround/environs-client-2.toml.bak",
             "MD5": "2be49e9742e83c2ff69d23f703350457",
             "path": "config/dsurround/environs-client-2.toml.bak"
           }
@@ -659,7 +659,7 @@
           "type": "File",
           "artifact": {
             "size": 2351,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/environs-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/dsurround/environs-client.toml",
             "MD5": "2be49e9742e83c2ff69d23f703350457",
             "path": "config/dsurround/environs-client.toml"
           }
@@ -670,7 +670,7 @@
           "type": "File",
           "artifact": {
             "size": 1779,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/mobeffects-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/dsurround/mobeffects-client.toml",
             "MD5": "d32ee0dc16693ea9896bd8f9bbd012cf",
             "path": "config/dsurround/mobeffects-client.toml"
           }
@@ -681,7 +681,7 @@
           "type": "File",
           "artifact": {
             "size": 1909,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/sndctrl-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/dsurround/sndctrl-client.toml",
             "MD5": "27c82248f7e11277aaeda7a7ce7e627e",
             "path": "config/dsurround/sndctrl-client.toml"
           }
@@ -692,7 +692,7 @@
           "type": "File",
           "artifact": {
             "size": 2160,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/firstaid-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/firstaid-client.toml",
             "MD5": "189d9cbe15177cb88dd4504f17e5c3d2",
             "path": "config/firstaid-client.toml"
           }
@@ -703,7 +703,7 @@
           "type": "File",
           "artifact": {
             "size": 3193,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/firstaid-common.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/firstaid-common.toml",
             "MD5": "d23325730006e9fe2d9da63b4a91cd5d",
             "path": "config/firstaid-common.toml"
           }
@@ -714,7 +714,7 @@
           "type": "File",
           "artifact": {
             "size": 242,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/fml.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/fml.toml",
             "MD5": "5961f97ddaa04677acd58a89aaf3826c",
             "path": "config/fml.toml"
           }
@@ -725,7 +725,7 @@
           "type": "File",
           "artifact": {
             "size": 1359,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/forge-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/forge-client.toml",
             "MD5": "c352e2faa854312ac4bf44773720b53f",
             "path": "config/forge-client.toml"
           }
@@ -736,7 +736,7 @@
           "type": "File",
           "artifact": {
             "size": 310,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/forge-common.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/forge-common.toml",
             "MD5": "94977d1b9c60ebe6f0cfc34c0bbaa8c8",
             "path": "config/forge-common.toml"
           }
@@ -747,7 +747,7 @@
           "type": "File",
           "artifact": {
             "size": 93,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/pitchperfect-common.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/pitchperfect-common.toml",
             "MD5": "b2e26f802cccd34cfe666024d085dbbd",
             "path": "config/pitchperfect-common.toml"
           }
@@ -758,7 +758,7 @@
           "type": "File",
           "artifact": {
             "size": 192,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/securitycraft-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/securitycraft-client.toml",
             "MD5": "d388ad52ad8b51f56ede1d7cd6864968",
             "path": "config/securitycraft-client.toml"
           }
@@ -769,7 +769,7 @@
           "type": "File",
           "artifact": {
             "size": 168,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/space-bosstools-config.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/space-bosstools-config.toml",
             "MD5": "5d6c996cad37b07c954b32a45a5cf564",
             "path": "config/space-bosstools-config.toml"
           }
@@ -780,7 +780,7 @@
           "type": "File",
           "artifact": {
             "size": 1800,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/vehicle-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/vehicle-client.toml",
             "MD5": "e62b8fff32fbee68daa2f22629899940",
             "path": "config/vehicle-client.toml"
           }
@@ -791,7 +791,7 @@
           "type": "File",
           "artifact": {
             "size": 119,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/voicechat/player-volumes.properties",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/voicechat/player-volumes.properties",
             "MD5": "55c494b2dcdfd97293fa0225ca6ecb1b",
             "path": "config/voicechat/player-volumes.properties"
           }
@@ -802,7 +802,7 @@
           "type": "File",
           "artifact": {
             "size": 1271,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/voicechat-client.toml",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/voicechat-client.toml",
             "MD5": "879639909b414ede30e624017c0bc682",
             "path": "config/voicechat-client.toml"
           }
@@ -813,7 +813,7 @@
           "type": "File",
           "artifact": {
             "size": 2513,
-            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/worldedit/worldedit.properties",
+            "url": "https://amnestic.net/servers/Roleplay-1.16.5/files/config/worldedit/worldedit.properties",
             "MD5": "67ceb691e7f0f363c8732bb8966efda0",
             "path": "config/worldedit/worldedit.properties"
           }
