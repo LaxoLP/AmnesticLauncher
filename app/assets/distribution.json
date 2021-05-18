@@ -1,447 +1,824 @@
 {
-    "version": "1.0.0",
-    "java": {
-      "oracle": "http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html"
-    },
-    "rss": "https://www.boehmod.com/forum/ewr-porta/index.rss",
-    "servers": [
-      {
-        "id": "cc",
-        "name": "Amnestic Roleplay",
-        "description": "Biggest Roleplay Server",
-        "icon": "https://www.mccountercraft.net/img/cclogosquare.png",
-        "version": "1.0",
-        "address": "www.amnestic.net",
-        "minecraftVersion": "1.16.5",
-        "mainServer": true,
-        "autoconnect": true,
-        "modules": [
-          {
-            "id": "net.minecraftforge:forge:1.16.5-36.1.23",
-            "name": "Minecraft Forge",
-            "type": "ForgeHosted",
-            "artifact": {
-              "size": 2014260,
-              "MD5": "a4d84569831a19d562b690343634cbac",
-              "url": "https://www.boehmod.com/download/launcher/1.6.4/forge-1.6.4-9.11.1.1345-universal.jar"
-            },
-            "subModules": [
-              {
-                "id": "net.minecraft:launchwrapper:1.8",
-                "name": "Mojang (LaunchWrapper)",
-                "type": "Library",
-                "artifact": {
-                  "size": 28927,
-                  "MD5": "460ffeedae268dc70c8210ce179fa44a",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/launchwrapper-1.8.jar"
-                }
-              },
-              {
-                "id": "org.ow2.asm:asm-all:5.0.3",
-                "name": "Mojang (ASM)",
-                "type": "Library",
-                "artifact": {
-                  "size": 214592,
-                  "MD5": "d21c2a06a4e6b175aa01e328f38a1182",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/asm-all-4.1.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-library:2.10.2@jar.pack.xz",
-                "name": "Minecraft Forge (scala-library)",
-                "type": "Library",
-                "artifact": {
-                  "size": 7218365,
-                  "MD5": "6113b66ce9c223edaa895aafa4a61139",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/scala-library-2.10.2.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-compiler:2.10.2@jar.pack.xz",
-                "name": "Minecraft Forge (scala-compiler)",
-                "type": "Library",
-                "artifact": {
-                  "size": 14541830,
-                  "MD5": "9dbe26f8b0e3745d359e01720d789c8c",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/scala-compiler-2.10.2.jar"
-                }
-              },
-              {
-                "id": "lzma:lzma:0.0.1",
-                "name": "Mojang (LZMA)",
-                "type": "Library",
-                "artifact": {
-                  "size": 5762,
-                  "MD5": "a3e3c3186e41c4a1a3027ba2bb23cdc6",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/lzma-0.0.1.jar"
-                }
-              },
-              {
-                "id": "net.sf.jopt-simple:jopt-simple:4.5",
-                "name": "Mojang (Jopt Simple)",
-                "type": "Library",
-                "artifact": {
-                  "size": 61311,
-                  "MD5": "1372bd4823bb1ef61e7db6724f601150",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/jopt-simple-4.5.jar"
-                }
-              },
-              {
-                "id": "com.paulscode:codecjorbis:20101023",
-                "name": "Mojang (Jorbis Codec)",
-                "type": "Library",
-                "artifact": {
-                  "size": 103871,
-                  "MD5": "0d622e2ac4368b5a33d540a9e4819e0c",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/codecjorbis-20101023.jar"
-                }
-              },
-              {
-                "id": "com.paulscode:codecwav:20101023",
-                "name": "Mojang (Wav Codec)",
-                "type": "Library",
-                "artifact": {
-                  "size": 5618,
-                  "MD5": "f6a93b7eb8083e4ced92e7e253657057",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/codecwav-20101023.jar"
-                }
-              },
-              {
-                "id": "com.paulscode:libraryjavasound:20101123",
-                "name": "Mojang (Java Sound Library)",
-                "type": "Library",
-                "artifact": {
-                  "size": 21679,
-                  "MD5": "247b45f9d2f0071ad543c14d0ff31d5c",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/libraryjavasound-20101123.jar"
-                }
-              },
-              {
-                "id": "com.paulscode:librarylwjglopenal:20100824",
-                "name": "Mojang (Java LWJGL Library)",
-                "type": "Library",
-                "artifact": {
-                  "size": 18981,
-                  "MD5": "93730cef2e75762c5a1431c6d7a0c78e",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/librarylwjglopenal-20100824.jar"
-                }
-              },
-              {
-                "id": "com.paulscode:soundsystem:20120107",
-                "name": "Mojang (PaulsCode Sound System)",
-                "type": "Library",
-                "artifact": {
-                  "size": 65020,
-                  "MD5": "6d9d7d6c163caf74984465694d3566e7",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/soundsystem-20120107.jar"
-                }
-              },
-              {
-                "id": "argo:argo:2.25_fixed",
-                "name": "Mojang (Argo Fixed)",
-                "type": "Library",
-                "artifact": {
-                  "size": 74953,
-                  "MD5": "e9960995974979445b03bc644b9e9853",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/argo-2.25_fixed.jar"
-                }
-              },
-              {
-                "id": "org.bouncycastle:bcprov-jdk15on:1.47",
-                "name": "Mojang (BCPROV JDK)",
-                "type": "Library",
-                "artifact": {
-                  "size": 1997327,
-                  "MD5": "7749dd7eca4403fb968ddc484263736a",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/bcprov-jdk15on-1.47.jar"
-                }
-              },
-              {
-                "id": "com.google.guava:guava:14.0",
-                "name": "Mojang (Google Guava)",
-                "type": "Library",
-                "artifact": {
-                  "size": 2189111,
-                  "MD5": "484466295375582d0e32cc6efb42e4e6",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/guava-14.0.jar"
-                }
-              },
-              {
-                "id": "org.apache.commons:commons-lang3:3.1",
-                "name": "Mojang (Commons Lang)",
-                "type": "Library",
-                "artifact": {
-                  "size": 315805,
-                  "MD5": "71b48e6b3e1b1dc73fe705604b9c7584",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/commons-lang3-3.1.jar"
-                }
-              },
-              {
-                "id": "commons-io:commons-io:2.4",
-                "name": "Mojang (Commons IO)",
-                "type": "Library",
-                "artifact": {
-                  "size": 185140,
-                  "MD5": "7f97854dc04c119d461fed14f5d8bb96",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/commons-io-2.4.jar"
-                }
-              },
-              {
-                "id": "net.java.jinput:jinput:2.0.5",
-                "name": "Mojang (JInput)",
-                "type": "Library",
-                "artifact": {
-                  "size": 208338,
-                  "MD5": "cc07d371f79dc4ed2239e1101ae06313",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/jinput-2.0.5.jar"
-                }
-              },
-              {
-                "id": "net.java.jutils:jutils:1.0.0",
-                "name": "Mojang (JUtils)",
-                "type": "Library",
-                "artifact": {
-                  "size": 7508,
-                  "MD5": "f60976b19661c849c5c87433045a9885",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/jutils-1.0.0.jar"
-                }
-              },
-              {
-                "id": "com.google.code.gson:gson:2.2.2",
-                "name": "Mojang (Google GSON)",
-                "type": "Library",
-                "artifact": {
-                  "size": 189285,
-                  "MD5": "08cce0687047cc068b6f1bdd45b14cf4",
-                  "url": "http://www.boehmod.com/download/launcher/1.6.4/gson-2.2.2.jar"
-                }
-              }
-            ]
-          },
-          {
-            "id": "com.ferullogaming:countercraft:1.6.4a",
-            "name": "CounterCraft Mod Jar",
-            "type": "File",
-            "required": {
-              "value": true
-            },
-            "artifact": {
-              "size": 43952285,
-              "MD5": "09E27D55E06E472C95C4FD6CCAD88ECB",
-              "path": "mods/CounterCraft.jar",
-              "url": "https://github.com/boehmod/CounterCraftRelease/releases/download/1.6.4a/CounterCraft.jar"
-            }
-          }
-        ]
+  "version": "1.0.0",
+  "rss": "<LINK TO RSS FEED>",
+  "discord": {
+    "clientId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+    "smallImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
+  },
+  "servers": [
+    {
+      "id": "Roleplay-1.16.5",
+      "name": "Amnestic Roleplay",
+      "description": "Roleplay Running Minecraft 1.16.5 (Forge v36.1.23)",
+      "icon": null,
+      "version": "1.0.0",
+      "address": "amnestic.net:25565",
+      "minecraftVersion": "1.16.5",
+      "discord": {
+        "shortId": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageText": "<FILL IN OR REMOVE DISCORD OBJECT>",
+        "largeImageKey": "<FILL IN OR REMOVE DISCORD OBJECT>"
       },
-      {
-        "id": "deci",
-        "name": "Test",
-        "description": "Official Test Modpack",
-        "icon": "https://i.imgur.com/GrSF9T9.jpg",
-        "version": "1.20.6f",
-        "address": "www.mcTest.net",
-        "minecraftVersion": "1.7.10",
-        "mainServer": true,
-        "autoconnect": false,
-        "modules": [
-          {
-            "id": "net.minecraftforge:forge:1.7.10-10.13.4.1614-1.7.10",
-            "name": "Minecraft Forge",
-            "type": "ForgeHosted",
-            "artifact": {
-              "size": 3018833,
-              "MD5": "ADD0FBA161C4652A96EFB4264EC2D9EC",
-              "url": "https://www.boehmod.com/download/launcher/1.7.10/forge-1.7.10-10.13.4.1614-1.7.10-universal.jar"
-            },
-            "subModules": [
-              {
-                "id": "net.minecraft:launchwrapper:1.12",
-                "name": "Mojang (LaunchWrapper)",
-                "type": "Library",
-                "artifact": {
-                  "size": 32999,
-                  "MD5": "934B2D91C7C5BE4A49577C9E6B40E8DA",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/launchwrapper-1.12.jar"
-                }
-              },
-              {
-                "id": "org.ow2.asm:asm-all:5.0.3",
-                "name": "Mojang (ASM)",
-                "type": "Library",
-                "artifact": {
-                  "size": 241639,
-                  "MD5": "C5CC4613BBDFBA3CCF5F0AB85390D0B8",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/asm-all-5.0.3.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-library:2.11.1",
-                "name": "Minecraft Forge (scala-library)",
-                "type": "Library",
-                "artifact": {
-                  "size": 5612286,
-                  "MD5": "6F9208AF82F7C2811A6C0DE049CFE279",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-library-2.11.1.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-compiler:2.11.1",
-                "name": "Minecraft Forge (scala-compiler)",
-                "type": "Library",
-                "artifact": {
-                  "size": 13576400,
-                  "MD5": "D9FC987043FCF8C25D0F73BC7CA36A47",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-compiler-2.11.1.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-actors-migration:2.11-1.1.0",
-                "name": "Minecraft Forge (scala-actors-migration)",
-                "type": "Library",
-                "artifact": {
-                  "size": 58767,
-                  "MD5": "7F7B169667D14B3092A285BADF9487F7",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-actors-migration_2.11-1.1.0.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-continuations-library:2.11.1-1.0.2",
-                "name": "Minecraft Forge (scala-continuations-library)",
-                "type": "Library",
-                "artifact": {
-                  "size": 26551,
-                  "MD5": "6515CACAD64CD1ED19BD283B6EAFA640",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-continuations-library_2.11-1.0.2.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-continuations-plugin:2.11.1-1.0.2",
-                "name": "Minecraft Forge (scala-continuations-plugin)",
-                "type": "Library",
-                "artifact": {
-                  "size": 209882,
-                  "MD5": "40E725B6F9DA3A52E6ADFFD94ABB8290",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-continuations-plugin_2.11.1-1.0.2.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-parser-combinators:2.11-1.0.1",
-                "name": "Minecraft Forge (scala-parser-combinators)",
-                "type": "Library",
-                "artifact": {
-                  "size": 430247,
-                  "MD5": "FE20384E064DD025E144BEE2858ABF1A",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-parser-combinators_2.11-1.0.1.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-reflect:2.11.1",
-                "name": "Minecraft Forge (scala-reflect)",
-                "type": "Library",
-                "artifact": {
-                  "size": 4415437,
-                  "MD5": "08B829B97A4258421B7E5C902B8A08AC",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-reflect-2.11.1.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-swing:2.11-1.0.1",
-                "name": "Minecraft Forge (scala-swing)",
-                "type": "Library",
-                "artifact": {
-                  "size": 736831,
-                  "MD5": "5D8C98094F1AE58184ED2E087FCA7C44",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-swing_2.11-1.0.1.jar"
-                }
-              },
-              {
-                "id": "org.scala-lang:scala-xml:2.11-1.0.2",
-                "name": "Minecraft Forge (scala-xml)",
-                "type": "Library",
-                "artifact": {
-                  "size": 660552,
-                  "MD5": "A54CA733EF0EDE9C343F1CE9ED0B527C",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/scala-xml_2.11-1.0.2.jar"
-                }
-              },
-              {
-                "id": "lzma:lzma:0.0.1",
-                "name": "Mojang (LZMA)",
-                "type": "Library",
-                "artifact": {
-                  "size": 5762,
-                  "MD5": "A3E3C3186E41C4A1A3027BA2BB23CDC6",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/lzma-0.0.1.jar"
-                }
-              },
-              {
-                "id": "net.sf.jopt-simple:jopt-simple:4.5",
-                "name": "Mojang (Jopt Simple)",
-                "type": "Library",
-                "artifact": {
-                  "size": 61311,
-                  "MD5": "1372BD4823BB1EF61E7DB6724F601150",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/jopt-simple-4.5.jar"
-                }
-              },
-              {
-                "id": "com.google.guava:guava:17.0",
-                "name": "Mojang (Google Guava)",
-                "type": "Library",
-                "artifact": {
-                  "size": 2243036,
-                  "MD5": "89FEF81C2ADFA9B50A64ED5CD5D8C155",
-                  "url": "https://repo1.maven.org/maven2/com/google/guava/guava/17.0/guava-17.0.jar"
-                }
-              },
-              {
-                "id": "com.typesafe:config:1.2.1",
-                "name": "MinecraftForge (typesafe-config)",
-                "type": "Library",
-                "artifact": {
-                  "size": 221173,
-                  "MD5": "992248074F0D2DF7CF97FA3C6529AE35",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/config-1.2.1.jar"
-                }
-              },
-              {
-                "id": "org.apache.commons:akka-actor:2.11-2.3.3",
-                "name": "Minecraft Forge (akka-actor)",
-                "type": "Library",
-                "artifact": {
-                  "size": 2553197,
-                  "MD5": "71b48e6b3e1b1dc73fe705604b9c7584",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/akka-actor_2.11-2.3.3.jar"
-                }
-              },
-              {
-                "id": "org.apache.commons:commons-lang3:3.3.2",
-                "name": "Mojang (Commons Lang)",
-                "type": "Library",
-                "artifact": {
-                  "size": 412739,
-                  "MD5": "3128BF75A2549EBE38663401191BACAB",
-                  "url": "http://www.boehmod.com/download/launcher/1.7.10/commons-lang3-3.3.2.jar"
-                }
-              }
-            ]
+      "mainServer": false,
+      "autoconnect": false,
+      "modules": [
+        {
+          "id": "net.minecraftforge:forge:1.16.5-36.1.23",
+          "name": "Minecraft Forge (base jar)",
+          "type": "ForgeHosted",
+          "artifact": {
+            "size": 210522,
+            "MD5": "e7f76276301f0113c3e4aeb7e8b462f9",
+            "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23.jar"
           },
-          {
-            "id": "net.mcTest:Test:1.20.6f",
-            "name": "Test Mod Jar",
-            "type": "File",
-            "required": {
-              "value": true
+          "subModules": [
+            {
+              "id": "1.16.5-36.1.23",
+              "name": "Minecraft Forge (version.json)",
+              "type": "VersionManifest",
+              "artifact": {
+                "size": 12754,
+                "MD5": "cb7496fb963589a5280429b2eddf3cf9",
+                "url": "http://localhost:8080/repo/versions/1.16.5-forge-36.1.23/1.16.5-forge-36.1.23.json"
+              }
             },
-            "artifact": {
-              "size": 149477730,
-              "MD5": "6EABFA9A7F62A3B8D79BA8154B519243",
-              "path": "mods/Test.jar",
-              "url": "https://github.com/ScottehBoeh/TestRelease/releases/download/1.20.6/Test.jar"
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.1.23:universal",
+              "name": "Minecraft Forge (universal jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 2424531,
+                "MD5": "7c4ca438752ab0dba3e98cd665854106",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23-universal.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraftforge:forge:1.16.5-36.1.23:client",
+              "name": "Minecraft Forge (client jar)",
+              "type": "Library",
+              "artifact": {
+                "size": 4151961,
+                "MD5": "c428e861f207c4dd0fc29a5175ca0ef6",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forge/1.16.5-36.1.23/forge-1.16.5-36.1.23-client.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:srg",
+              "name": "Minecraft Forge (client srg)",
+              "type": "Library",
+              "artifact": {
+                "size": 11352644,
+                "MD5": "21b2881695f41f04bb05c6283557d487",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-srg.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:slim",
+              "name": "Minecraft Forge (client slim)",
+              "type": "Library",
+              "artifact": {
+                "size": 9118806,
+                "MD5": "df78297c0b6526e16f2bb7a685fd6b96",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-slim.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "net.minecraft:client:1.16.5-20210115.111550:extra",
+              "name": "Minecraft Forge (client extra)",
+              "type": "Library",
+              "artifact": {
+                "size": 8428369,
+                "MD5": "dbed747390f81e10cee40500b726431a",
+                "url": "http://localhost:8080/repo/lib/net/minecraft/client/1.16.5-20210115.111550/client-1.16.5-20210115.111550-extra.jar"
+              },
+              "subModules": []
+            },
+            {
+              "id": "org.ow2.asm:asm:9.0",
+              "name": "Minecraft Forge (asm)",
+              "type": "Library",
+              "artifact": {
+                "size": 121783,
+                "MD5": "e87284e4421437854ba938179cf803e7",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm/9.0/asm-9.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-commons:9.0",
+              "name": "Minecraft Forge (asm-commons)",
+              "type": "Library",
+              "artifact": {
+                "size": 71646,
+                "MD5": "e84f4f465fe607932af0d9ca4b31bce5",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-commons/9.0/asm-commons-9.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-tree:9.0",
+              "name": "Minecraft Forge (asm-tree)",
+              "type": "Library",
+              "artifact": {
+                "size": 52673,
+                "MD5": "3798070ed795cf4aa7efd7f63feec2a2",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-tree/9.0/asm-tree-9.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-util:9.0",
+              "name": "Minecraft Forge (asm-util)",
+              "type": "Library",
+              "artifact": {
+                "size": 84857,
+                "MD5": "ddbcaa2262311e04a6b0560787b47da4",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-util/9.0/asm-util-9.0.jar"
+              }
+            },
+            {
+              "id": "org.ow2.asm:asm-analysis:9.0",
+              "name": "Minecraft Forge (asm-analysis)",
+              "type": "Library",
+              "artifact": {
+                "size": 33439,
+                "MD5": "daed5f6bc67ac8f01bebeca0bb72a369",
+                "url": "http://localhost:8080/repo/lib/org/ow2/asm/asm-analysis/9.0/asm-analysis-9.0.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:modlauncher:8.0.9",
+              "name": "Minecraft Forge (modlauncher)",
+              "type": "Library",
+              "artifact": {
+                "size": 126196,
+                "MD5": "dae78c82a7ca7599ae6a10938cd22d58",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/modlauncher/8.0.9/modlauncher-8.0.9.jar"
+              }
+            },
+            {
+              "id": "cpw.mods:grossjava9hacks:1.3.3",
+              "name": "Minecraft Forge (grossjava9hacks)",
+              "type": "Library",
+              "artifact": {
+                "size": 2113,
+                "MD5": "d19b487241008d8e6111137a289ea1d7",
+                "url": "http://localhost:8080/repo/lib/cpw/mods/grossjava9hacks/1.3.3/grossjava9hacks-1.3.3.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:accesstransformers:3.0.1",
+              "name": "Minecraft Forge (accesstransformers)",
+              "type": "Library",
+              "artifact": {
+                "size": 76586,
+                "MD5": "ada4c365c3d0de73c05a94010432b547",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/accesstransformers/3.0.1/accesstransformers-3.0.1.jar"
+              }
+            },
+            {
+              "id": "org.antlr:antlr4-runtime:4.9.1",
+              "name": "Minecraft Forge (antlr4-runtime)",
+              "type": "Library",
+              "artifact": {
+                "size": 337868,
+                "MD5": "0dcc4b860d5d8d2852ab94d58c56ca2d",
+                "url": "http://localhost:8080/repo/lib/org/antlr/antlr4-runtime/4.9.1/antlr4-runtime-4.9.1.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:eventbus:4.0.0",
+              "name": "Minecraft Forge (eventbus)",
+              "type": "Library",
+              "artifact": {
+                "size": 42873,
+                "MD5": "84c4758e6139b70146104be5bb1300b5",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/eventbus/4.0.0/eventbus-4.0.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:forgespi:3.2.0",
+              "name": "Minecraft Forge (forgespi)",
+              "type": "Library",
+              "artifact": {
+                "size": 20172,
+                "MD5": "8f1f6942d17d88d704324e8000666a1a",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/forgespi/3.2.0/forgespi-3.2.0.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:coremods:4.0.6",
+              "name": "Minecraft Forge (coremods)",
+              "type": "Library",
+              "artifact": {
+                "size": 25453,
+                "MD5": "e56551f2586d3ff08beb24f5ea44a7d3",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/coremods/4.0.6/coremods-4.0.6.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:unsafe:0.2.0",
+              "name": "Minecraft Forge (unsafe)",
+              "type": "Library",
+              "artifact": {
+                "size": 2834,
+                "MD5": "2d1016ebe4c1a63dd50a59d26bd12db1",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/unsafe/0.2.0/unsafe-0.2.0.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:core:3.6.3",
+              "name": "Minecraft Forge (core)",
+              "type": "Library",
+              "artifact": {
+                "size": 199091,
+                "MD5": "093b0ca357d3f8b922170b8d7f43948c",
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/core/3.6.3/core-3.6.3.jar"
+              }
+            },
+            {
+              "id": "com.electronwill.night-config:toml:3.6.3",
+              "name": "Minecraft Forge (toml)",
+              "type": "Library",
+              "artifact": {
+                "size": 31288,
+                "MD5": "615b8e62371c536f876764591990118d",
+                "url": "http://localhost:8080/repo/lib/com/electronwill/night-config/toml/3.6.3/toml-3.6.3.jar"
+              }
+            },
+            {
+              "id": "org.jline:jline:3.12.1",
+              "name": "Minecraft Forge (jline)",
+              "type": "Library",
+              "artifact": {
+                "size": 732926,
+                "MD5": "ffd8c9d6eb8a8456ef505c8ef9fc777d",
+                "url": "http://localhost:8080/repo/lib/org/jline/jline/3.12.1/jline-3.12.1.jar"
+              }
+            },
+            {
+              "id": "org.apache.maven:maven-artifact:3.6.3",
+              "name": "Minecraft Forge (maven-artifact)",
+              "type": "Library",
+              "artifact": {
+                "size": 57824,
+                "MD5": "b83c1943a0783f3f81d4cd4c83c363e1",
+                "url": "http://localhost:8080/repo/lib/org/apache/maven/maven-artifact/3.6.3/maven-artifact-3.6.3.jar"
+              }
+            },
+            {
+              "id": "net.jodah:typetools:0.8.3",
+              "name": "Minecraft Forge (typetools)",
+              "type": "Library",
+              "artifact": {
+                "size": 15425,
+                "MD5": "ee4596e1413cc1a5e080c971d6064753",
+                "url": "http://localhost:8080/repo/lib/net/jodah/typetools/0.8.3/typetools-0.8.3.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-api:2.11.2",
+              "name": "Minecraft Forge (log4j-api)",
+              "type": "Library",
+              "artifact": {
+                "size": 266283,
+                "MD5": "3f7ee51e3dd0830de799dae0b90243dd",
+                "url": "http://localhost:8080/repo/lib/org/apache/logging/log4j/log4j-api/2.11.2/log4j-api-2.11.2.jar"
+              }
+            },
+            {
+              "id": "org.apache.logging.log4j:log4j-core:2.11.2",
+              "name": "Minecraft Forge (log4j-core)",
+              "type": "Library",
+              "artifact": {
+                "size": 1629585,
+                "MD5": "c8bd8b5c5aaaa07a3dcbf57de01c9266",
+                "url": "http://localhost:8080/repo/lib/org/apache/logging/log4j/log4j-core/2.11.2/log4j-core-2.11.2.jar"
+              }
+            },
+            {
+              "id": "net.minecrell:terminalconsoleappender:1.2.0",
+              "name": "Minecraft Forge (terminalconsoleappender)",
+              "type": "Library",
+              "artifact": {
+                "size": 15977,
+                "MD5": "679363fa893293791e55a21f81342f87",
+                "url": "http://localhost:8080/repo/lib/net/minecrell/terminalconsoleappender/1.2.0/terminalconsoleappender-1.2.0.jar"
+              }
+            },
+            {
+              "id": "net.sf.jopt-simple:jopt-simple:5.0.4",
+              "name": "Minecraft Forge (jopt-simple)",
+              "type": "Library",
+              "artifact": {
+                "size": 78146,
+                "MD5": "eb0d9dffe9b0eddead68fe678be76c49",
+                "url": "http://localhost:8080/repo/lib/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar"
+              }
+            },
+            {
+              "id": "org.spongepowered:mixin:0.8.2",
+              "name": "Minecraft Forge (mixin)",
+              "type": "Library",
+              "artifact": {
+                "size": 935252,
+                "MD5": "1f0c4faa50360623e49b9c2522edc602",
+                "url": "http://localhost:8080/repo/lib/org/spongepowered/mixin/0.8.2/mixin-0.8.2.jar"
+              }
+            },
+            {
+              "id": "net.minecraftforge:nashorn-core-compat:15.1.1.1",
+              "name": "Minecraft Forge (nashorn-core-compat)",
+              "type": "Library",
+              "artifact": {
+                "size": 2194057,
+                "MD5": "ae37ed8407982eefc9f85fdb1c95a3a0",
+                "url": "http://localhost:8080/repo/lib/net/minecraftforge/nashorn-core-compat/15.1.1.1/nashorn-core-compat-15.1.1.1.jar"
+              }
             }
+          ]
+        },
+        {
+          "id": "net.geforcemods:securitycraft:v1.8.21.1@jar",
+          "name": "SecurityCraft",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2386707,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/[1.16.5]+SecurityCraft+v1.8.21.1.jar",
+            "MD5": "bf446d6520d8bb62f3a23c4381b98fa9"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "id": "its_meow.betteranimalsplus:betteranimalsplus:10.2.0@jar",
+          "name": "Better Animals Plus",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 8356809,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/betteranimalsplus-1.16.5-10.2.0.jar",
+            "MD5": "76be6215fd3ddd3fca3316718afa8962"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.furniture:cfm:7.0.0-pre19@jar",
+          "name": "MrCrayfish's Furniture Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1741346,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/cfm-7.0.0-pre19-mc1.16.3.jar",
+            "MD5": "d5d24b9624fdbee21aa799c3007fe6cd"
+          }
+        },
+        {
+          "id": "com.mrcrayfish.guns:cgm:1.0.1@jar",
+          "name": "MrCrayfish's Gun Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 1206293,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/cgm-1.0.1-mc1.16.3.jar",
+            "MD5": "9f9826cf21828ffdff968478c1ef3c92"
+          }
+        },
+        {
+          "id": "net.blay09.mods:cookingforblockheads:9.3.1@jar",
+          "name": "Cooking for Blockheads",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 682094,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/CookingForBlockheads_1.16.5-9.3.1.jar",
+            "MD5": "acd88bcf95e8d8f68618e8c5cae07d69"
+          }
+        },
+        {
+          "id": "org.orecruncher:dsurround:1.16.4-4.0.4.2@jar",
+          "name": "§3Dynamic Surroundings",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 14853313,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/DynamicSurroundings-1.16.4-4.0.4.2.jar",
+            "MD5": "94f6cd1063b181219d62e535cb4a6e43"
+          }
+        },
+        {
+          "id": "ichttt.mods:firstaid:1.9.6@jar",
+          "name": "First Aid",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 432801,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/First-Aid-Mod-1.16.5.jar",
+            "MD5": "24a8e5a469f4663cf9fbf39e3441348e"
+          }
+        },
+        {
+          "id": "alpvax.mc:goprone:1.16.4-1.3.5@jar",
+          "name": "GoProne",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 150920,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/GoProne-Mod-1.16.5.jar",
+            "MD5": "32cc029ab33a1c18927d19a7c58ea931"
+          }
+        },
+        {
+          "id": "com.mcwdoors.kikoz:mcwdoors:1.0.2@jar",
+          "name": "Macaw's Doors",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 733320,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/Macaws-Doors-Mod-1.16.5.jar",
+            "MD5": "e4edfada2ba8ce0e309577c74edd4df2"
+          }
+        },
+        {
+          "id": "com.mcwwindows.kikoz:mcwwindows:1.0.3@jar",
+          "name": "Macaw's Windows",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 623920,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/mcw-windows-1.0.3-mc1.16.5.jar",
+            "MD5": "0edd1262eab6a4bdf357ff31cc237d1f"
+          }
+        },
+        {
+          "id": "com.supermartijn642:movingelevators:1.2.34@jar",
+          "name": "Moving Elevators",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 231501,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/movingelevators-1.2.34-mc1.16.5.jar",
+            "MD5": "3d49a5bfff6de8af21e162ebffca2cda"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:obfuscate:0.6.0@jar",
+          "name": "Obfuscate",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 144213,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/obfuscate-0.6.0-mc1.16.4.jar",
+            "MD5": "a8a57b55b1d6dd7e69a6f552f9b99e7d"
+          }
+        },
+        {
+          "id": "net.optifine:optifine:1.16.5_HD_U_G8@jar",
+          "name": "OptiFine",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6046996,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/optionalon/OptiFine_1.16.5_HD_U_G8.jar",
+            "MD5": "e0717ba6d1674af83036ebc479fc77b4"
+          },
+          "required": {
+            "value": false
+          }
+        },
+        {
+          "id": "com.aaronhowser1:pitchperfect:1.0.2@jar",
+          "name": "Pitch Perfect",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 31255,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/Pitch-Perfect-Mod-1.16.5.jar",
+            "MD5": "3acb0b85ccf5dc033cacc663b6bb5b77"
+          }
+        },
+        {
+          "id": "dev.buildtool:satako:4.2.4-1.16.5@jar",
+          "name": "Satako",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 91703,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/Satako-4.2.4-1.16.5.jar",
+            "MD5": "eb783b1f4c84cec6d42e41f369bfbd39"
+          }
+        },
+        {
+          "id": "ascpm:ascpm:1.1@jar",
+          "name": "SCP Overtime Concept Build",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 18864524,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/SCPOvertime-1.16.5-1.1.jar",
+            "MD5": "b52a1e43447405434a85ccca3529f8ce"
+          }
+        },
+        {
+          "id": "net.mrscauthd:boss_tools:5.0@jar",
+          "name": "Space-Bosstools",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 6273306,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/Space-Bosstools-Mod-1.16.5.jar",
+            "MD5": "174aba2801a4910deab094017afb03d4"
+          }
+        },
+        {
+          "id": "com.mrcrayfish:vehicle:0.45.1@jar",
+          "name": "MrCrayfish's Vehicle Mod",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 3392743,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/vehicle-0.45.1-mc1.16.3.jar",
+            "MD5": "046ca32dbd0ff99dda93250b31700eee"
+          }
+        },
+        {
+          "id": "de.maxhenkel:voicechat:1.16.5-1.3.5@jar",
+          "name": "Simple Voice Chat",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 2583494,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/voicechat-1.16.5-1.3.5.jar",
+            "MD5": "7eabddade75c65ea76d9356319312792"
+          }
+        },
+        {
+          "id": "com.sk89q:worldedit:7.2.5+57d5ac9@jar",
+          "name": "WorldEdit",
+          "type": "ForgeMod",
+          "artifact": {
+            "size": 5312767,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/forgemods/required/worldedit-mod-7.2.5-dist.jar",
+            "MD5": "96ff53c70d4a3ff9df5592462b0f0685"
+          }
+        },
+        {
+          "id": "betteranimalsplus-client.toml",
+          "name": "betteranimalsplus-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 375,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/betteranimalsplus-client.toml",
+            "MD5": "18440a653b5cfdbf6929786dd88b49d9",
+            "path": "config/betteranimalsplus-client.toml"
+          }
+        },
+        {
+          "id": "cfm-client.toml",
+          "name": "cfm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 190,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cfm-client.toml",
+            "MD5": "7fa57b2ec3af27c80b00b56b1fac740b",
+            "path": "config/cfm-client.toml"
+          }
+        },
+        {
+          "id": "cfm-common.toml",
+          "name": "cfm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 259,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cfm-common.toml",
+            "MD5": "0d385a1ecf645dda802350ffe3cb4bc4",
+            "path": "config/cfm-common.toml"
+          }
+        },
+        {
+          "id": "cgm-client.toml",
+          "name": "cgm-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1775,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cgm-client.toml",
+            "MD5": "2372c9f205b07cf85e2137a3ece367a5",
+            "path": "config/cgm-client.toml"
+          }
+        },
+        {
+          "id": "cgm-common.toml",
+          "name": "cgm-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 6278,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cgm-common.toml",
+            "MD5": "df99347401677e7d2603a6d982c300f6",
+            "path": "config/cgm-common.toml"
+          }
+        },
+        {
+          "id": "cookingforblockheads-client.toml",
+          "name": "cookingforblockheads-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 127,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cookingforblockheads-client.toml",
+            "MD5": "e1e3ffb231cc0402291d124a823ff237",
+            "path": "config/cookingforblockheads-client.toml"
+          }
+        },
+        {
+          "id": "cookingforblockheads-common.toml",
+          "name": "cookingforblockheads-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1261,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/cookingforblockheads-common.toml",
+            "MD5": "ab32639ee511feb9720ef09cf13c7efd",
+            "path": "config/cookingforblockheads-common.toml"
+          }
+        },
+        {
+          "id": "dsurround-client.toml",
+          "name": "dsurround-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 863,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/dsurround-client.toml",
+            "MD5": "44d46075f0e00cc5a8f312d371325dcd",
+            "path": "config/dsurround/dsurround-client.toml"
+          }
+        },
+        {
+          "id": "environs-client-1.toml.bak",
+          "name": "environs-client-1.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 2351,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/environs-client-1.toml.bak",
+            "MD5": "2be49e9742e83c2ff69d23f703350457",
+            "path": "config/dsurround/environs-client-1.toml.bak"
+          }
+        },
+        {
+          "id": "environs-client-2.toml.bak",
+          "name": "environs-client-2.toml.bak",
+          "type": "File",
+          "artifact": {
+            "size": 2351,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/environs-client-2.toml.bak",
+            "MD5": "2be49e9742e83c2ff69d23f703350457",
+            "path": "config/dsurround/environs-client-2.toml.bak"
+          }
+        },
+        {
+          "id": "environs-client.toml",
+          "name": "environs-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2351,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/environs-client.toml",
+            "MD5": "2be49e9742e83c2ff69d23f703350457",
+            "path": "config/dsurround/environs-client.toml"
+          }
+        },
+        {
+          "id": "mobeffects-client.toml",
+          "name": "mobeffects-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1779,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/mobeffects-client.toml",
+            "MD5": "d32ee0dc16693ea9896bd8f9bbd012cf",
+            "path": "config/dsurround/mobeffects-client.toml"
+          }
+        },
+        {
+          "id": "sndctrl-client.toml",
+          "name": "sndctrl-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1909,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/dsurround/sndctrl-client.toml",
+            "MD5": "27c82248f7e11277aaeda7a7ce7e627e",
+            "path": "config/dsurround/sndctrl-client.toml"
+          }
+        },
+        {
+          "id": "firstaid-client.toml",
+          "name": "firstaid-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 2160,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/firstaid-client.toml",
+            "MD5": "189d9cbe15177cb88dd4504f17e5c3d2",
+            "path": "config/firstaid-client.toml"
+          }
+        },
+        {
+          "id": "firstaid-common.toml",
+          "name": "firstaid-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 3193,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/firstaid-common.toml",
+            "MD5": "d23325730006e9fe2d9da63b4a91cd5d",
+            "path": "config/firstaid-common.toml"
+          }
+        },
+        {
+          "id": "fml.toml",
+          "name": "fml.toml",
+          "type": "File",
+          "artifact": {
+            "size": 242,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/fml.toml",
+            "MD5": "5961f97ddaa04677acd58a89aaf3826c",
+            "path": "config/fml.toml"
+          }
+        },
+        {
+          "id": "forge-client.toml",
+          "name": "forge-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1359,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/forge-client.toml",
+            "MD5": "c352e2faa854312ac4bf44773720b53f",
+            "path": "config/forge-client.toml"
+          }
+        },
+        {
+          "id": "forge-common.toml",
+          "name": "forge-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 310,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/forge-common.toml",
+            "MD5": "94977d1b9c60ebe6f0cfc34c0bbaa8c8",
+            "path": "config/forge-common.toml"
+          }
+        },
+        {
+          "id": "pitchperfect-common.toml",
+          "name": "pitchperfect-common.toml",
+          "type": "File",
+          "artifact": {
+            "size": 93,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/pitchperfect-common.toml",
+            "MD5": "b2e26f802cccd34cfe666024d085dbbd",
+            "path": "config/pitchperfect-common.toml"
+          }
+        },
+        {
+          "id": "securitycraft-client.toml",
+          "name": "securitycraft-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 192,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/securitycraft-client.toml",
+            "MD5": "d388ad52ad8b51f56ede1d7cd6864968",
+            "path": "config/securitycraft-client.toml"
+          }
+        },
+        {
+          "id": "space-bosstools-config.toml",
+          "name": "space-bosstools-config.toml",
+          "type": "File",
+          "artifact": {
+            "size": 168,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/space-bosstools-config.toml",
+            "MD5": "5d6c996cad37b07c954b32a45a5cf564",
+            "path": "config/space-bosstools-config.toml"
+          }
+        },
+        {
+          "id": "vehicle-client.toml",
+          "name": "vehicle-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1800,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/vehicle-client.toml",
+            "MD5": "e62b8fff32fbee68daa2f22629899940",
+            "path": "config/vehicle-client.toml"
+          }
+        },
+        {
+          "id": "player-volumes.properties",
+          "name": "player-volumes.properties",
+          "type": "File",
+          "artifact": {
+            "size": 119,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/voicechat/player-volumes.properties",
+            "MD5": "55c494b2dcdfd97293fa0225ca6ecb1b",
+            "path": "config/voicechat/player-volumes.properties"
+          }
+        },
+        {
+          "id": "voicechat-client.toml",
+          "name": "voicechat-client.toml",
+          "type": "File",
+          "artifact": {
+            "size": 1271,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/voicechat-client.toml",
+            "MD5": "879639909b414ede30e624017c0bc682",
+            "path": "config/voicechat-client.toml"
+          }
+        },
+        {
+          "id": "worldedit.properties",
+          "name": "worldedit.properties",
+          "type": "File",
+          "artifact": {
+            "size": 2513,
+            "url": "http://localhost:8080/servers/Roleplay-1.16.5/files/config/worldedit/worldedit.properties",
+            "MD5": "67ceb691e7f0f363c8732bb8966efda0",
+            "path": "config/worldedit/worldedit.properties"
+          }
+        }
+      ]
+    }
+  ]
+}
