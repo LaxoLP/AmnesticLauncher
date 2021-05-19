@@ -3134,17 +3134,23 @@ input:checked + .toggleSwitchSlider:before {
 * * */
 
 /* Button which opens the news view. */
-#newsButton {
+#newsButtonText {
     background: none;
     border: none;
     cursor: pointer;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-shadow: 1px 1px 1px #bebcbb;
+    font-size: 50px;
+    padding: 0px;
+    transition: 0.25s ease;
     outline: none;
 }
-#newsButton:hover #newsButtonText,
-#newsButton:focus #newsButtonText {
+#newsButtonText:hover,
+#newsButtonText:focus {
     text-shadow: 0px 0px 20px #fff, 0px 0px 20px #fff;
 }
-#newsButton:active {
+#newsButtonText:active {
     color: #c7c7c7;
     text-shadow: 0px 0px 20px #c7c7c7, 0px 0px 20px #c7c7c7;
 }
